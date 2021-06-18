@@ -28,3 +28,9 @@ registry: "txt"
 txtOwnerId: "${txt_owner_id}"
 
 priorityClassName: "platform-low"
+
+resources:
+  requests:
+    memory: 32Mi
+  limits:
+    memory: 128Mi

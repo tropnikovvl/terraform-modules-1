@@ -52,6 +52,13 @@ secret:
   create: false
   name: azad-kube-proxy
 
+resources:
+  requests:
+    cpu: 50m
+    memory: 32Mi
+  limits:
+    memory: 128Mi
+
 autoscaling:
   enabled: true
   minReplicas: 2

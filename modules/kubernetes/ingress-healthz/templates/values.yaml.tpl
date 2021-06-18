@@ -4,10 +4,10 @@ priorityClassName: "platform-low"
 
 resources:
   requests:
-     cpu: 50m
-     memory: 64Mi
+     cpu: 20m
+     memory: 16Mi
   limits:
-    memory: 128Mi
+    memory: 64Mi
 
 containerSecurityContext:
   enabled: true

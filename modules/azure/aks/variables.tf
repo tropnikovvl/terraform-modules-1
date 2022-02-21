@@ -42,6 +42,7 @@ variable "aks_config" {
       node_labels          = map(string)
       os_disk_type         = string
       os_disk_size_gb      = number
+      kubelet_disk_type    = string
       spot_enabled         = bool
       spot_max_price       = number
     }))

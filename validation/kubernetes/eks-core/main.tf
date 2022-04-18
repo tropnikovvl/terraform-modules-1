@@ -105,8 +105,8 @@ module "eks_core" {
 
   promtail_enabled = true
   promtail_config = {
-    role_arn     = "foo"
-    loki_address = "value"
+    role_arn            = "foo"
+    loki_address        = "value"
+    excluded_namespaces = []
   }
-
 }

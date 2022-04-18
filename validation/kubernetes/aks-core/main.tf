@@ -115,6 +115,7 @@ module "aks_core" {
       resource_id = ""
       tenant_id   = ""
     }
-    loki_address = "value"
+    excluded_namespaces = []
+    loki_address        = "value"
   }
 }

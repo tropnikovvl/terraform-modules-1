@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - [#635](https://github.com/XenitAB/terraform-modules/pull/635) Upgrade azurerm provider to v3.1.0.
 - [#637](https://github.com/XenitAB/terraform-modules/pull/637) [Breaking] Add tenant namespace default deny network policy by default.
+- [#561](https://github.com/XenitAB/terraform-modules/pull/561) [Breaking] Add kubelet_disk_type as a config to AKS additional_node_pools. this allows us to use `Temporary` disk types.
 
 ### Removed
 
@@ -30,7 +31,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - [#536](https://github.com/XenitAB/terraform-modules/pull/536) Update OPA Gatekeeper Helm charts
 - [#626](https://github.com/XenitAB/terraform-modules/pull/626) [Breaking] Add support for multiple DNS zones.
 - [#590](https://github.com/XenitAB/terraform-modules/pull/590) Drop CAP_SYS_ADMIN through OPA and use gatekeeper-library v0.10.0.
-- [#561](https://github.com/XenitAB/terraform-modules/pull/561) [Breaking] Add kubelet_disk_type as a config to AKS additional_node_pools. this allows us to use `Temporary` disk types.
 
 ### Fix
 

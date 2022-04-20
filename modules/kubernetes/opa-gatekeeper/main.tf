@@ -140,6 +140,7 @@ resource "helm_release" "gatekeeper_templates" {
   version     = "v0.8.1"
   max_history = 3
   values      = [local.values]
+  disable_webhooks = true
 }
 
 resource "helm_release" "gatekeeper_constraints" {
@@ -152,4 +153,5 @@ resource "helm_release" "gatekeeper_constraints" {
   version     = "v0.8.1"
   max_history = 3
   values      = [local.values]
+  disable_webhooks = true
 }
